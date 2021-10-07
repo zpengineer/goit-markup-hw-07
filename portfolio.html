@@ -6,14 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link 
-    rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/portfolio.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -22,13 +15,13 @@
         <div class="container page-header__cont">
             <nav class="main-nav">
     
-                <a class="logo" href="./index.html">
-                    <span class="logo__text">Web</span>Studio
+                <a class="header-logo" href="./index.html">
+                    Web<span class="header-logo__text">Studio</span>
                 </a>
     
-                <ul class="site-nav lists">
+                <ul class="site-nav">
                     <li class="site-nav__item">
-                        <a class="site-nav__link" href="./index.html">
+                        <a class="site-nav__link " href="./index.html">
                             Студия
                         </a>
                     </li>
@@ -48,7 +41,7 @@
                 </ul>
             </nav>
     
-            <ul class="site-contacts lists">
+            <ul class="site-contacts">
                 <li class="site-contacts__item">
                     <a class="site-contacts__link" href="mailto:info@devstudio.com">
                         <svg class="site-contacts__icon" width="16" height="12">
@@ -77,34 +70,34 @@
         <section class="section">
             <div class="container">
                 
-                <h1 class="section-title visually-hidden" >Портфолио</h1>
+                <h1 class="section-title" >Портфолио</h1>
 
-                <ul class="portfolio-links lists">
+                <ul class="portfolio-links">
 
                     <li class="portfolio-links__item">
-                        <button type="button" class="button portfolio-links__btn portfolio-links__btn--current">Все</button>
+                        <button type="button" class="portfolio-links__btn portfolio-links__btn--current">Все</button>
                     </li>
 
                     <li class="portfolio-links__item">
-                        <button type="button" class="button portfolio-links__btn">Веб-сайты</button>
+                        <button type="button" class="portfolio-links__btn">Веб-сайты</button>
                     </li>
 
                     <li class="portfolio-links__item">
-                        <button type="button" class="button portfolio-links__btn">Приложения</button>
+                        <button type="button" class="portfolio-links__btn">Приложения</button>
                     </li>
 
                     <li class="portfolio-links__item">
-                        <button type="button" class="button portfolio-links__btn">Дизайн</button>
+                        <button type="button" class="portfolio-links__btn">Дизайн</button>
                     </li>
 
                     <li class="portfolio-links__item">
-                        <button type="button" class="button portfolio-links__btn">Маркетинг</button>
+                        <button type="button" class="portfolio-links__btn">Маркетинг</button>
                     </li>
 
                 </ul>
   
             
-                <ul class="card-set lists">
+                <ul class="card-set">
 
                     <li class="card-set__item">
                         <a href="" class="product">
@@ -335,13 +328,13 @@
     
             <div class="footer__column">
     
-                <a class="logo footer-logo" href="./index.html">
-                    <span class="logo__text">Web</span>Studio
+                <a class="footer-logo" href="./index.html">
+                    Web<span class="footer-logo__text">Studio</span>
                 </a>
     
                 <address class="footer-address">
     
-                    <ul class="footer-address__list lists">
+                    <ul class="footer-address__list">
     
                         <li class="footer-address__item">
                             <a href="#" class="footer-address__link footer-address__link--inversed">г. Киев, пр-т Леси
@@ -364,7 +357,7 @@
     
                 <b class="footer-social__title">присоединяйтесь</b>
     
-                <ul class="social-block lists">
+                <ul class="social-block">
                     <li class="social-block__item">
                         <a class="social-block__link" href="#instagram">
                             <svg class="social-block__icon" width="20" height="20">
@@ -409,12 +402,11 @@
     
                     <label for="user_email" class="footer-form__label">
     
-                        <span class="visually-hidden">Email</span>
                         <input type="email" name="email" id="user_email" placeholder="E-mail" class="footer-form__input" />
     
                     </label>
     
-                    <button type="submit" class="button button--hover form-footer__btn--submit">
+                    <button type="submit" class="form-footer__btn--submit">
     
                         <span class="btn-text">Подписаться</span>
     
@@ -431,7 +423,6 @@
     
         </div>
     </footer>
-
     <!-- Скрипт для шапки-->
     <script src="./js/header.js"></script>
 
