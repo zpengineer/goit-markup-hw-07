@@ -16,17 +16,19 @@
   border: 1px solid $border-color;
 
   transition: box-shadow 250ms $timing-function;
-
-  &:hover {
-    box-shadow: $card-shadow;
-  }
 }
 
 .product {
   width: 370px;
   text-decoration: none;
 
-  &:hover .product__overlay {
+  &:hover,
+  &:focus-within {
+    box-shadow: $card-shadow;
+  }
+
+  &:hover .product__overlay,
+  &:focus .product__overlay {
     transform: translateY(0);
     visibility: visible;
   }
